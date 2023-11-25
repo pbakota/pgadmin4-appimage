@@ -7,3 +7,6 @@ build:
 run:
 	./pgadmin4-8.0-x86_64.AppImage
 
+clean:
+	rm -f *.AppImage
+
