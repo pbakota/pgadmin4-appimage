@@ -1,4 +1,6 @@
-# PgAdmin4 version 8.0 packaged into AppImage
+# PgAdmin4 packaged into AppImage
+
+https://www.pgadmin.org
 
 To build AppImage
 
