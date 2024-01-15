@@ -2,13 +2,13 @@
   "buildinfo": [
     {
       "prerun": [
-	"curl -sSL -o ~/.cache/deb2appimage/debs/pgadmin4-desktop_8.1_amd64.deb 'https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/bookworm/dists/pgadmin4/main/binary-amd64/pgadmin4-desktop_8.1_amd64.deb'",
-        "curl -sSL -o ~/.cache/deb2appimage/debs/pgadmin4-server_8.1_amd64.deb 'https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/bookworm/dists/pgadmin4/main/binary-amd64/pgadmin4-server_8.1_amd64.deb'",
+	"curl -sSL -o ~/.cache/deb2appimage/debs/pgadmin4-desktop_8.2_amd64.deb 'https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/bookworm/dists/pgadmin4/main/binary-amd64/pgadmin4-desktop_8.2_amd64.deb'",
+        "curl -sSL -o ~/.cache/deb2appimage/debs/pgadmin4-server_8.2_amd64.deb 'https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/bookworm/dists/pgadmin4/main/binary-amd64/pgadmin4-server_8.2_amd64.deb'",
         "mkdir -p ~/.cache/deb2appimage/AppDir/usr/bin",
         "cp ./startup.sh ~/.cache/deb2appimage/AppDir/usr/bin/pgadmin4.sh"
       ],
       "name": "pgadmin4",
-      "version": "8.1-glibc_2.35",
+      "version": "8.2-glibc_2.35",
       "deps": "python3.11,python3.11-minimal,libpython3.11-stdlib,libpython3.11-minimal,libkrb5-3,python3-psycopg2,libpq5,libgssapi-krb5-2,libatomic1,libldap-2.5-0,xdg-utils,libsasl2-2,libkrb5support0",
       "repoarch": "amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,amd64,all,amd64,amd64",
       "distrorepo": "Debian",
