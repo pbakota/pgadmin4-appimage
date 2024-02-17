@@ -1,4 +1,4 @@
-APPIMAGE=pgadmin4-8.2-glibc_2.35-x86_64.AppImage
+APPIMAGE=pgadmin4-8.3-glibc_2.35-x86_64.AppImage
 
 all: build
 
