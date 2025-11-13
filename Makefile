@@ -1,4 +1,4 @@
-APPIMAGE=pgadmin4-9.9-glibc_2.35-x86_64.AppImage
+APPIMAGE=pgadmin4-9.10-glibc_2.35-x86_64.AppImage
 BUILD:=docker run --rm -it --init --privileged -v /dev/fuse:/dev/fuse -v .:/root --name pgadmin-build pgadmin-build ./deb2appimage-0.0.5-x86_64.AppImage
 
 all: build
