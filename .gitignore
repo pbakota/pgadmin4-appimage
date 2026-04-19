@@ -1,3 +1,4 @@
 *.AppImage
+!deb2appimage-0.0.6-x86_64.AppImage
 *-bak*
 .cache
